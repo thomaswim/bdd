@@ -1,4 +1,4 @@
-CREATE TABLE Personnel (
+/*CREATE TABLE Personnel (
     idPersonnel integer PRIMARY KEY,
     nom varchar(80),
     prénom varchar(80),
@@ -54,4 +54,11 @@ CREATE TABLE AuteurExterne(
     nom varchar(20),
     prénom varchar(20),
     adresseEmail varchar(50),
-    idLaboratoirExterne varchar(4) REFERENCES LaboratoireExterne(idLaboratoireExterne) ON DELETE SET NULL);
+    idLaboratoirExterne varchar(4) REFERENCES LaboratoireExterne(idLaboratoireExterne) ON DELETE SET NULL);*/
+
+
+
+--SELECT * FROM personnel;
+
+INSERT INTO personnel VALUES ('P001','Arnal','Clémence','2015','12/05/2000','cite');
+INSERT INTO personnel VALUES ('P002','Jullien','Tom','2016','21/06/1999','INSA');
